@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> ฅ^•ﻌ•^ฅ </title>
+</head>
+<body>
+  <div class = click>
+    <h3> click the minmin </h3>
+  </div>
+  <div class="flip-card-container">
+    <div class="flip-card">
+      <div class="flip-card-front">
+        <img src="photo_6242445102144406740_x.jpg" alt=" ">
+      </div>
+      <div class="flip-card-back">
+        <p>
+          <em>I love how fluffy you look all snuggled up and sometimes telling cutesy little half-asleep stories as you drift off. 
+            <br><br>You'll forver be my eepy baby.
+          </em>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var flipCardContainer = document.querySelector('.flip-card-container');
+        flipCardContainer.addEventListener('click', function() {
+            this.querySelector('.flip-card').classList.toggle('flipped');
+        });
+    });
+  </script>
+</body>
+</html>
